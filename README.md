@@ -1,2 +1,2 @@
 # the_grid
-visual grid project
+visual grid project with JS/jQuery
