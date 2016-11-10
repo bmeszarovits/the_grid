@@ -1,0 +1,130 @@
+body {
+	background: url('http://wall--art.com/wp-content/uploads/2014/05/black-website-background.jpg');
+	background-repeat: no-repeat;
+	margin-left: 0;
+	margin-right:0;	
+	height: 100%;
+	overflow: hidden;
+}
+
+.header_wrapper {
+	position: absolute;
+	margin:  auto;
+	background: #000;
+	width: 100%;
+	height:60px;
+	top: 0;
+	left: 0;
+	right: 0;
+	box-shadow: 5px 5px 30px #f2f2f2;
+}
+
+.header_main {
+	width: 1040px;
+	height: 60px;
+	background: #000;
+	margin: 0 auto;
+}
+
+.header_main p {
+	color: #fff;
+	float: left;
+	font-family: 'Anton', sans-serif;
+	font-size: 180%;
+	font-weight: bold; 
+	letter-spacing: 5px;
+	margin: 10px 0 0 10px;
+}
+
+.header_main > div {
+	height: 30px;
+	width: 30px;
+	background: #fff;
+	float: right;
+	margin: 15px 0 0 15px;
+}	
+
+.button_wrapper {
+	position: absolute;
+	width: 100%;
+	height:60px;
+	top: 100px;
+	left: 0;
+	right: 0;
+}
+
+.button_main {
+	height: 60px;
+	width: 640px;
+	margin: auto;
+}
+
+button {
+	width: 120px;
+	font-weight: bold;
+	font-size: 130%;
+	margin: 10px 20px 10px 20px;
+	background: #6d6666;
+	padding: 8px;
+	color: #fff;
+	cursor: pointer;
+	border-style: solid 1px;
+	box-shadow: 0px 0px 30px 3px #fff;
+}	
+
+button.left1, .left2 {
+	float: left;
+}
+
+button.right1, .right2 {
+	float: right;
+}
+
+.box_wrapper {
+	position: absolute;
+	height: 640px;
+	width: 100%;
+	top: 180px;
+	left: 0;
+	right: 0;
+}
+
+.box_main {
+	height: 640px;
+	width: 640px;
+	margin: auto;
+	box-shadow: 0px 0px 40px 15px;
+}
+
+.down_wrapper {
+	position: absolute;
+	top: 850px;
+	width: 100%;
+	height: 60px;	
+}
+
+.down_main {
+	width: 640px;
+	height: 60px;
+	margin: auto;
+	text-align: center;
+}
+
+.box_main {
+  height: 640px;
+  width: 640px;
+  margin: auto;
+  box-shadow: 0px 0px 40px 15px;
+  background: #313131;
+}
+.button_down {
+  width: 300px;
+}
+.square {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  margin: 0;
+  float: left;
+  background: #fff;
+}
